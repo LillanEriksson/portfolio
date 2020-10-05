@@ -1,0 +1,128 @@
+/*Mobile first*/
+body {
+  margin: 0;
+}
+
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/patrick-hendry-_desktop-unsplash.jpg);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.header-icons {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+.header-icons img {
+  border: 3px white solid;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 5px;
+}
+
+.profile-pic-mobile {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background-image: url(./assets/profile_mobile.png);
+  position: absolute;
+  top: 340px;
+  right: 40px;
+}
+
+.header-text {
+  display: flex;
+  position: absolute;
+  top: 180px;
+  width: 300px;
+  text-align: left;
+  padding: 30px;
+  color: #fff;
+}
+
+.header-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+.header-text p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.small-header-text {
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+.header-portfolio {
+  margin-right: 20px;
+}
+
+.header-name {
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.red-white-h2 {
+  color: #fff;
+  background-color: #fa382f;
+}
+
+main p,
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+.about-me {
+  background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding: 40px;
+}
+
+.tech {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.featured-projects {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.my-thoughts {
+  padding: 40px;
+}
+
+.skills {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.for-more {
+  padding: 40px;
+}
+
+.for-more img {
+  border: 3px solid #fa382f;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  background-color: #072bce;
+  color: #fff;
+}
