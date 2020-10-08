@@ -99,6 +99,11 @@ h3 {
   margin-top: 40px;
 }
 
+.centered-h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 main p,
 footer p {
   font-family: 'Montserrat', sans-serif;
@@ -249,10 +254,6 @@ footer p {
   flex-wrap: wrap;
 }
 
-.skills-h2 {
-  text-align: center;
-}
-
 .skills {
   text-align: center;
   width: 50%;
@@ -270,10 +271,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-}
-
-.for-more-h2 {
-  text-align: center;
 }
 
 .for-more-container {
