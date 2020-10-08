@@ -107,7 +107,7 @@ h3 {
 main p,
 footer p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .shape-container {
@@ -247,6 +247,7 @@ footer p {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .skills-container {
@@ -255,7 +256,6 @@ footer p {
 }
 
 .skills {
-  text-align: center;
   width: 50%;
 }
 
@@ -263,6 +263,9 @@ ul {
   list-style-type: none;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  text-align: center;
+  margin-left: 0px;
+  padding: 10px;
 }
 
 .for-more {
@@ -322,6 +325,11 @@ footer {
 
 /*Tablet*/
 @media (min-width: 768px) {
+  .header-icons {
+    top: 50px;
+    right: 130px;
+  }
+
   .header-icons img {
     height: 27px;
   }
@@ -332,13 +340,18 @@ footer {
     padding: 12px;
   }
 
+  .header-text {
+    top: 180px;
+    width: 400px;
+    text-align: left;
+    padding: 30px;
+    color: #fff;
+    padding-left: 130px;
+  }
+
   .profile-pic {
-    height: 332px;
-    width: 332px;
-    border-radius: 50%;
     border: 2px solid #fff;
-    background-image: url(./assets/profile_desktop.png);
-    top: 200px;
+    background-image: url(./assets/profile_mobile.png);
     right: 100px;
   }
 
@@ -377,5 +390,49 @@ footer {
 
   .my-skills {
     padding: 50px 150px 50px 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-pic {
+    height: 332px;
+    width: 332px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-image: url(./assets/profile_desktop.png);
+    top: 200px;
+    right: 100px;
+  }
+
+  .about-me {
+    padding: 50px 200px 50px 200px;
+  }
+
+  .tech {
+    padding: 50px 200px 50px 200px;
+  }
+
+  .featured-projects {
+    padding: 50px 200px 50px 200px;
+  }
+
+  .featured-projects-container {
+    display: flex;
+  }
+
+  .my-thoughts {
+    padding: 50px 200px 50px 200px;
+  }
+
+  .thoughts {
+    width: 50%;
+  }
+
+  .my-skills {
+    padding: 50px 200px 50px 200px;
+  }
+
+  .skills {
+    width: 30%;
   }
 }
