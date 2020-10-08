@@ -32,7 +32,7 @@ body {
   align-items: center;
 }
 
-.profile-pic-mobile {
+.profile-pic {
   height: 170px;
   width: 170px;
   border-radius: 50%;
@@ -96,7 +96,7 @@ h3 {
 .red-h2 {
   font-size: 20px;
   color: #fa382f;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 main p,
@@ -153,13 +153,33 @@ footer p {
   padding: 40px;
 }
 
+.other-projects {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+}
+
 .featured-projects p {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
+.project-title {
+  color: #fa382f;
+  text-transform: uppercase;
+}
+
 .red-text {
   color: #fa382f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.red-text-underline {
+  text-decoration: underline;
+  color: #fa382f;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
@@ -186,6 +206,11 @@ footer p {
 }
 
 .thoughts-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thoughts {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -209,27 +234,50 @@ footer p {
   top: 0;
 }
 
+.my-skills {
+  background-color: #f4f4f4;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  background-color: #f4f4f4;
-  padding: 40px;
+}
+
+.skills-h2 {
+  text-align: center;
 }
 
 .skills {
   text-align: center;
+  width: 50%;
 }
 
 ul {
   list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .for-more {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   padding: 40px;
+}
+
+.for-more-h2 {
+  text-align: center;
+}
+
+.for-more-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .for-more-icon-container {
@@ -244,23 +292,27 @@ ul {
 
 .for-more-icon-container img {
   display: flex;
-  height: 17px;
-  width: auto;
+  height: 20px;
+  width: 20px;
   align-items: center;
   padding: 11px;
 }
 
-.for-more-icon-text {
+.for-more-icon-text-container {
   display: flex;
-  margin-top: 0;
-  padding-top: 0;
+  justify-content: center;
+}
+
+.for-more-icon-text-container div {
+  width: 76px;
+  text-align: center;
 }
 
 .icon-text {
   font-size: 9px;
   font-weight: bold;
   color: #fa382f;
-  margin-top: 0;
+  margin: 0 10 20 10;
 }
 
 footer {
@@ -268,4 +320,64 @@ footer {
   text-align: center;
   background-color: #072bce;
   color: #fff;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  .header-icons img {
+    height: 27px;
+  }
+
+  .header-icons div {
+    border: 2px white solid;
+    border-radius: 50%;
+    padding: 12px;
+  }
+
+  .profile-pic {
+    height: 332px;
+    width: 332px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-image: url(./assets/profile_desktop.png);
+    top: 200px;
+    right: 100px;
+  }
+
+  .about-me {
+    padding: 50px 150px 50px 150px;
+  }
+
+  .tech {
+    padding: 50px 150px 50px 150px;
+  }
+
+  .red-p {
+    color: #fa382f;
+  }
+
+  .featured-projects {
+    padding: 50px 150px 50px 150px;
+  }
+
+  .featured-projects-container {
+    display: flex;
+  }
+
+  .project {
+    width: 50%;
+    margin: 5px;
+  }
+
+  .my-thoughts {
+    padding: 50px 150px 50px 150px;
+  }
+
+  .thoughts {
+    width: 50%;
+  }
+
+  .my-skills {
+    padding: 50px 150px 50px 150px;
+  }
 }
