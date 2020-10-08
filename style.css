@@ -80,6 +80,11 @@ main {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -163,6 +168,10 @@ footer p {
   justify-content: center;
   background-color: #f4f4f4;
   padding: 40px;
+}
+
+.other-projects-container {
+  width: 100%;
 }
 
 .other-projects {
@@ -388,6 +397,10 @@ footer {
 
   .my-thoughts {
     padding: 50px 150px 50px 150px;
+  }
+
+  .thoughts-container {
+    flex-wrap: nowrap;
   }
 
   .thoughts {
