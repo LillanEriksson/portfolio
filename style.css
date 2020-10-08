@@ -264,7 +264,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-align: center;
-  margin-left: 0px;
+  margin: 0px;
   padding: 10px;
 }
 
@@ -385,7 +385,8 @@ footer {
   }
 
   .thoughts {
-    width: 50%;
+    width: 45%;
+    margin: 5px;
   }
 
   .my-skills {
@@ -430,6 +431,9 @@ footer {
 
   .my-skills {
     padding: 50px 200px 50px 200px;
+  }
+
+  .skills-container {
   }
 
   .skills {
