@@ -67,7 +67,7 @@ body {
   top: 0;
 }
 .header-portfolio {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .header-name {
@@ -94,13 +94,13 @@ h3 {
   display: inline;
   color: #fff;
   font-size: 20px;
-  background-color: #fa382f;
+  background-color: #ff971d;
   padding: 3px 10px 3px 10px;
 }
 
 .red-h2 {
   font-size: 20px;
-  color: #fa382f;
+  color: #ff971d;
   margin-top: 40px;
 }
 
@@ -129,13 +129,13 @@ footer p {
   width: 50px;
   height: 3px;
   border-radius: 10px;
-  background: #fa382f;
+  background: #ff971d;
 }
 
 .circle {
   width: 10px;
   height: 10px;
-  background: #fa382f;
+  background: #ff971d;
   border-radius: 50%;
 }
 
@@ -143,7 +143,7 @@ footer p {
   display: block;
   align-items: center;
   text-align: left;
-  background-color: #f4f4f4;
+  background-color: #f9f6f7;
   font-family: 'Montserrat', sans-serif;
   padding: 40px;
   width: 100%;
@@ -167,7 +167,7 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #f4f4f4;
+  background-color: #f9f6f7;
   padding: 40px;
 }
 
@@ -182,25 +182,29 @@ footer p {
   text-align: left;
 }
 
+.featured-projects h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .featured-projects p {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
 .project-title {
-  color: #fa382f;
+  color: #ff971d;
   text-transform: uppercase;
 }
 
 .red-text {
-  color: #fa382f;
+  color: #ff971d;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
 .red-text-underline {
   text-decoration: underline;
-  color: #fa382f;
+  color: #ff971d;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
@@ -210,7 +214,7 @@ footer p {
 }
 
 .project-skills {
-  background-color: #fddfe7;
+  background-color: #ffe8d6;
   padding: 5px;
   margin: 3px;
 }
@@ -251,13 +255,13 @@ footer p {
 }
 
 .thoughts-date {
-  color: #fa382f;
+  color: #ff971d;
   position: absolute;
   top: 0;
 }
 
 .my-skills {
-  background-color: #f4f4f4;
+  background-color: #f9f6f7;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -302,9 +306,10 @@ ul {
 }
 
 .for-more-icon-container div {
-  border: 3px solid #fa382f;
+  border: 3px solid #ff971d;
   border-radius: 50%;
   margin: 14px;
+  background-color: #ff971d;
 }
 
 .for-more-icon-container img {
@@ -328,14 +333,14 @@ ul {
 .icon-text {
   font-size: 9px;
   font-weight: bold;
-  color: #fa382f;
+  color: #ff971d;
   margin: 0 10 20 10;
 }
 
 footer {
   padding: 40px;
   text-align: center;
-  background-color: #072bce;
+  background-color: #ff971d;
   color: #fff;
 }
 
@@ -380,7 +385,7 @@ footer {
   }
 
   .red-p {
-    color: #fa382f;
+    color: #ff971d;
   }
 
   .featured-projects {
