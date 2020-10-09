@@ -408,7 +408,12 @@ footer {
 
   .project {
     width: 100%;
-    margin: 5px;
+    margin: 10px;
+  }
+
+  .project img {
+    width: 90%;
+    height: auto;
   }
 
   .my-thoughts {
