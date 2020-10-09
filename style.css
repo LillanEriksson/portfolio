@@ -171,6 +171,15 @@ footer p {
   padding: 40px;
 }
 
+.project {
+  width: 100%;
+  justify-content: center;
+}
+
+.project img {
+  max-width: 100%;
+}
+
 .other-projects-container {
   width: 100%;
 }
@@ -397,7 +406,7 @@ footer {
   }
 
   .project {
-    width: 50%;
+    width: 100%;
     margin: 5px;
   }
 
