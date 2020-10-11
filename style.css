@@ -246,12 +246,6 @@ footer p {
 	flex-wrap: wrap;
 }
 
-.thoughts {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .my-thoughts p {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 5px;
@@ -264,10 +258,16 @@ footer p {
 	margin-bottom: 5px;
 }
 
+.thoughts-text {
+	margin-top: 20px;
+	position: relative;
+}
+
 .thoughts-date {
 	color: #ff971d;
 	position: absolute;
 	top: 0;
+	margin-bottom: 5px;
 }
 
 .my-skills {
