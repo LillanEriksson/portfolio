@@ -243,7 +243,9 @@ footer p {
 
 .thoughts-container {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 .my-thoughts p {
@@ -426,12 +428,11 @@ footer {
 		width: 50%;
 	}
 
-	.thoughts-container {
-		flex-wrap: nowrap;
-	}
-
 	.thoughts {
 		margin: 10px;
+	}
+	.thoughts-container {
+		width: 100%;
 	}
 
 	.my-skills {
@@ -468,6 +469,10 @@ footer {
 
 	.my-thoughts {
 		padding: 50px 200px 50px 200px;
+	}
+
+	.thoughts-container {
+		margin: 20px;
 	}
 
 	.my-skills {
