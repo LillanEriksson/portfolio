@@ -370,6 +370,10 @@ footer {
 	color: #fff;
 }
 
+.photocreds {
+	font-size: 10px;
+}
+
 /*Tablet*/
 @media (min-width: 768px) {
 	.header-icons {
