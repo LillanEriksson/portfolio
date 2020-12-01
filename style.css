@@ -174,7 +174,6 @@ footer p {
 }
 
 .featured-projects {
-	display: flex;
 	flex-wrap: wrap;
 	background-color: #f9f6f7;
 	padding: 80px;
