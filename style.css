@@ -323,11 +323,12 @@ ul {
 
 .for-more-container {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 
 .for-more-icon-container {
 	display: flex;
+	justify-content: center;
 }
 
 .for-more-icon-container div {
